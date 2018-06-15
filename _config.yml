@@ -79,7 +79,7 @@ theme: hueman
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: a
+  type: 
 
 # THEME CONFIGURATION
 # Menus

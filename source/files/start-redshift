@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Prints the numeric value
+function numVal {
+  echo "$1" | grep -o -- '-\?[0-9]\+\(.[0-9]\+\)\?'
+}
+
+# Make new pipe
+PIPE=$(mktemp -u)
+mkfifo $PIPE
+
+# Internalize pipe
+exec 3<>$PIPE
+rm $PIPE
+
+# Print out latitude and logitude to pipe
+"/usr/lib/geoclue-2.0/demos/where-am-i" | grep -m1 -A 3 "New location:" >&3 &
+
+# Read latitude and longitudes
+read unused <&3
+read lat    <&3
+read long   <&3
+
+lat=$(numVal "$lat")
+long=$(numVal "$long")
+
+# Close pipe
+exec 3<&-
+
+# Call redshift
+exec redshift "-l$lat:$long"

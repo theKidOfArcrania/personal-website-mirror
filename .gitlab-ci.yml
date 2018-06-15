@@ -7,6 +7,7 @@ pages:
     - node_modules/
 
   script:
+  - mv theme_config.yml themes/hueman/_config.yml
   - npm install hexo-cli -g
   - npm install
   - hexo generate

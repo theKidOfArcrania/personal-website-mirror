@@ -17,6 +17,7 @@ customize:
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: # path to favicon
     social_links: # for more icons, please see http://fontawesome.io/icons/#brand
+        at: mailto:wanghenry1998@gmail.com
         gitlab: https://gitlab.com/theKidOfArcrania
         github: https://github.com/theKidOfArcrania
 
@@ -78,5 +79,6 @@ miscellaneous:
         twitter_id:
         google_plus:
     links:
+        Resume: /files/Resume.pdf
         Hexo: http://hexo.io
 

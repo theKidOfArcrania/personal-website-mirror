@@ -14,6 +14,7 @@ I have not wrote a post for a week now. Hmm... well I guess I will just update
 what happens now. So just last week (on Tuesday) I made my first actual
 presentation in front of the manager. 
 
+## Preparing the Presentation
 For me I was actually quite nervous of how I would do, especially since a lot of
 people in the previous round of presentations did pretty awful. I have to
 remember that this manager is a very demanding person, and he does not give a
@@ -25,6 +26,7 @@ Now, mind you, I did in fact finish what I was assigned to do, read the source
 code of AFL, and figure out what it did in and out, something that I was shocked
 as to that the other intern was unable to get. Here is my [report][1] for that. 
 
+## Learning from the Internals...
 However, despite the result of the presentation, I think something more
 important from this is what I have learned as a result. Hence, I will take this
 time to tell what I learned about AFL fuzzer after reading the source code.
@@ -52,6 +54,7 @@ This way, AFL will "remember" what paths it has already seen work and will build
 new input data that builds on top of these new seed inputs and advance deeper
 into the program. This is the genetic algorithm part of the program.
 
+## Elegant and Efficient
 The most elegant thing I like about this AFL algorithm is that AFL does not in
 no way try to be accurate and precise. Instead it just approximates "interesting
 cases", i.e. cases with unique execution paths. This is both beneficial in only
@@ -75,6 +78,7 @@ a few asserts into your program, and run AFL on it!). It reminds of this
 Liveoverflow's [video][3] that I just rewatched. (I very much <3 watching
 Liveoverflow's videos because they are both educational and fun to learn). 
 
+# The Value in Little Chunks
 Honestly, it felt like currently I was given too little work; however, I am
 still able to take away some really valuable information that I would not have
 touched otherwise. I told some of my friends that I haven't really done much so

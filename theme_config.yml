@@ -71,6 +71,11 @@ plugins:
     google_analytics: # enter the tracking ID for your Google Analytics
     baidu_analytics: # enter Baidu Analytics hash key
     bing_site_verification: # enter Bing verification key here
+    statcounter:
+      sc_project: 11741239  # enter statcounter project id
+      sc_invisible: 1       # enter 1 to make statcounter invisible
+      sc_security: cd344424 # enter security code
+      on: true # enter true to enable statcounter
     mathjax: false # options: true, false
 
 # Miscellaneous

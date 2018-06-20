@@ -44,8 +44,11 @@ comment:
     youyan: # enter youyan uid here
     facebook: # enter true to enable
     isso: 
+        on: true
         site: 104.131.79.111:8083
         lang: en
+        vote: true
+        vote_levels: -3, 0, 7
     changyan:
         appId: # enter the changyan appId here
         appKey: # enter the changyan appKey here
@@ -73,8 +76,9 @@ plugins:
     bing_site_verification: # enter Bing verification key here
     statcounter:
       sc_project: 11741239  # enter statcounter project id
-      sc_invisible: 1       # enter 1 to make statcounter invisible
+      sc_invisible: 0       # enter 1 to make statcounter invisible
       sc_security: cd344424 # enter security code
+      #public: true
       on: true # enter true to enable statcounter
     mathjax: false # options: true, false
 

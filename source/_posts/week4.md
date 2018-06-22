@@ -78,7 +78,7 @@ a few asserts into your program, and run AFL on it!). It reminds of this
 Liveoverflow's [video][3] that I just rewatched. (I very much <3 watching
 Liveoverflow's videos because they are both educational and fun to learn). 
 
-# The Value in Little Chunks
+## The Value in Little Chunks
 Honestly, it felt like currently I was given too little work; however, I am
 still able to take away some really valuable information that I would not have
 touched otherwise. I told some of my friends that I haven't really done much so

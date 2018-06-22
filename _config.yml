@@ -81,3 +81,12 @@ theme: hueman
 deploy:
   type: 
 
+# Markdown formatting
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: false
+  smartLists: true
+  smartypants: false

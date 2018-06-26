@@ -371,6 +371,10 @@ ltrace and extracted the strcmp call. Oh...  and they encrypted the hash using
 an xor. I automated this whole thing with the python script mentioned before at
 the very top. QED.
 
+EDIT: I forgot to also mention, they reversed ONLY the top digits of the hash
+value of each byte as well, so `a1b2c3d456` would become `51d2c3b4a6`. I think
+they did that so that the resulting encrypted code would not be too obvious. 
+
 ### Running the network service
 There was a slight hiccup when I was trying to run the network service.
 Apparently, they wanted you to solve a lot keys before spitting out the flag. I

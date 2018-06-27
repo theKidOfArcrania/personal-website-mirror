@@ -397,6 +397,10 @@ solved). Unfortunately, by the time the competition ended, more than 30 teams
 solved it, qq. I learned quite a bit about Linux internals throughout this
 problem, and I think that's what matters most!
 
+Hey! You have read all the way down here! That's cool. You want a RE challenge?
+I actually wrote an RE challenge a while back. See if you can find it. Start
+with looking at my [github profile picture](https://github.com/theKidOfArcrania)
+
 [1]: /files/gctf/keygen/keygenme.zip
 [2]: http://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
 [3]: /files/gctf/keygen/child.png

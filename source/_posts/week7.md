@@ -1,6 +1,6 @@
 ---
 title:  "Week 6 and 7"
-date:   2018-06-22
+date:   2018-07-06
 categories:
  - Blogs
  - Taiwan Internship

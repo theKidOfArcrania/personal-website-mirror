@@ -5,7 +5,7 @@ categories:
  - Blogs
  - Taiwan Internship
 tags: 
- - AFL Fuzz
+ - AFL Fuzzing
 ---
 
 Wow! It's already been seven weeks being here in Taiwan, (I did a bit of 

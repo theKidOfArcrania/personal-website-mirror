@@ -45,7 +45,7 @@ comment:
     facebook: # enter true to enable
     isso: 
         on: true
-        site: 104.131.79.111:8083
+        site: comments.thekidofarcrania.com/
         lang: en
         vote: true
         vote_levels: -3, 0, 7

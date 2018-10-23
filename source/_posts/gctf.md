@@ -3,8 +3,10 @@ title:  "Google CTF Writeups"
 date:   2018-06-25
 categories:
  - Write-Ups
-tags: 
  - Google CTF
+tags: 
+ - re
+ - ptrace
 ---
 
 So I just competed in Google CTF. Unfortunately, I was only able to solve one

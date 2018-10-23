@@ -3,8 +3,11 @@ title:  "HITCON CTF Writeups"
 date:   2018-10-22
 categories:
  - Write-Ups
-tags: 
  - HITCON CTF
+tags: 
+ - KVM
+ - Kernel
+ - pwnable
 ---
 
 Hello. So I just competed in the HITCON competition with UTDCSG. I was

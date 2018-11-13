@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://sourcery.pwnadventure.com/ -->
+<html class="gr__sourcery_pwnadventure_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="manifest" href="/manifest.json">
+    
+        <style>
+         html, body {
+             position: relative;
+             height: 100%;
+             overflow: hidden
+         }
+         body {
+             margin: 0;
+             padding: 0;
+         }
+         canvas {
+		 margin: 0;
+		 padding: 0;
+		 width: 100%;
+		 height: 100%;
+	 }
+	 .overlay {
+		 opacity:0.90;
+		 background-color:#000;
+		 position:fixed;
+		 width:100%;
+		 height:100%;
+		 top:0px;
+		 left:0px;
+		 z-index:1000;
+	 }
+	 .centered {
+		 position: absolute;
+		 margin: auto;
+		 left: 0;
+		 right: 0;
+		 top: 0;
+		 bottom: 0;
+		 width: 50%;
+		 height: 50%;
+	 }
+        </style>
+    <title>Pwn Adventure Sourcery</title></head>
+    <body data-gr-c-s-loaded="true">
+     <div class="overlay">
+        <img class="centered" src="./sourcery.png" />
+    </div>   
+        <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" width="1916" height="663" style="cursor: default;"></canvas>
+        <script>
+         // This is read and used by `app.js`
+         var Module = {
+             wasmBinaryFile: "pwnadventuresourcery.wasm",
+             noExitRuntime: true,
+             canvas: (function() {
+                 var canvas = document.getElementById('canvas');
+
+                 canvas.addEventListener("webglcontextlost", function(e) {
+                     alert('WebGL context lost. You will need to reload the page.');
+                     e.preventDefault();
+                 }, false);
+
+                 return canvas;
+             })(),
+             print: function(msg) {
+                 console.log(msg);
+             },
+             printErr: function(msg) {
+                 console.warn(msg);
+             }
+         }
+        </script>
+        <script src="./pwnadventuresourcery.js"></script>
+    
+
+
+</body></html>

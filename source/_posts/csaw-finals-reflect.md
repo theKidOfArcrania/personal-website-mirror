@@ -117,5 +117,5 @@ all this is just way too hot right now.
 I will post all my writeups in a future post.
 
 [1]: https://sourcery.pwnadventure.com/
-[2]: /files/csaw/second_place
+[2]: /files/csaw/second_place.jpg
 

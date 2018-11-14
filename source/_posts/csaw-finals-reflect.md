@@ -55,6 +55,7 @@ of the 36 hrs competition (probably a little too much?), and I was quite tilted
 by multiple pwn adventure problems, sighs... I should've paid closer attention
 to the details!
 
+<!--
 ## A broken system...?
 *NOTE: Here's where I get a little ranty... feel free to ignore the rest of this
 post...*
@@ -74,6 +75,7 @@ terms of reversing and binary exploitation on even terms. This automatically
 stunts my ability to be able to rank high on CTF's. Especially when involving
 myself with large binaries, at the end of the day, it does require just raw
 man-hours, nothing much more than that. 
+
 
 But coming into this competition, my expectations were that each individual team
 would be capped at four people since that is what the "rules" dictate, which
@@ -113,6 +115,7 @@ cheating is just too much, and too much is at stake.  Anyways, I don't know who
 will actually see this, (probably no one)... Oh well I guess I will just retire
 to an identity in an obscure university, as an obscure person. The politics of
 all this is just way too hot right now. 
+-->
 
 I will post all my writeups in a future post.
 

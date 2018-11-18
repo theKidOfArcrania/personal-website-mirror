@@ -1,8 +1,9 @@
 ---
-title: "CSAW finals Reflection"
+title: "CSAW Finals Reflection"
 date: 2018-11-12 10:20:58
 categories:
  - Blogs
+ - Reflections
 tags:
  - csaw
 ---

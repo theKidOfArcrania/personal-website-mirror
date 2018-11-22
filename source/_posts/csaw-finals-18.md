@@ -46,7 +46,7 @@ memory directly in javascript using the `HASH##` global variables. I ended up
 searching for the health/mana scores in the memory, changing it a bit, to find
 the indicies... err... addresses of where these values reside in memory.
 Unfortunately, I think the addresses are randomized each time, so I ended up
-writing some [code][http://bit.ly/2DO2aPE] to do that for me. This code is a
+writing some [code](http://bit.ly/2DO2aPE) to do that for me. This code is a
 userscript that runs on TamperMonkey whenever you load the game. 
 
 As part of the program, you press Ctrl+B twice (when you have different

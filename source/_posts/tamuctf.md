@@ -207,10 +207,14 @@ has a restriction to four characters. You can get a shell for both by executing
 shell... too easy... next!
 
 ### pwn6
-Okay this was way too bloated! Uhhmm... okay this was quite annoying and I heard
-that this had also many unintentional solutions, @PWN\_writers\_at\_TAMUCTF, in
-the future, PLEASE groom your code a bit before releasing these, as there were
-several with unintentional solutions.
+EDIT: yeah uhmm.... my solution was actually unintentional (and the real
+solution was way harder to employ). 
+
+> Okay kids you learned your lesson! ALWAYS check your code twice and run it
+  through a few *experienced* pwners before actually releasing it for others to
+  break it... especially for large bloated code!!
+
+Okay this was way too bloated! Uhhmm... okay this was quite annoying.
 
 First I think it would be good if I explained what this program did. Essentially
 there's a client program that talked to a server program. This server is the one

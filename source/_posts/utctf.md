@@ -29,6 +29,11 @@ just gonna write ECHO for now.
 Anyways enough talk, and let's move on to the CTF writeups! Woot, woot!
 
 ## ECHO
+> `nc penguins.cool 1337`<br>
+  [not a hint][9] - this video literally has nothing to do with this challenge..
+  I think it's funny<br>
+  *by hk*
+
 
 ### tl;dr
 See this [article][1] for more detail. First bruteforce stack layout, then
@@ -258,3 +263,4 @@ This was a fun challenge, kudos to @hk, and first time I heard of BROP! Also
 [6]: /files/utctf/echo/brop.png
 [7]: https://gist.github.com/theKidOfArcrania/4d0fb3703ebba639353cc467431afa0f
 [8]: /files/utctf/echo/prize.png
+[9]: https://youtu.be/dcJPKZpFnVk

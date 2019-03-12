@@ -13,7 +13,8 @@ as this was only open to American university students, and up to 5 people).
 Wow. UT has it's own CTF now! Woot. Now I'm jealous, 'cause my university, UTD
 has not done a ctf :'( . Anyways, UT is a special university in my heart, as I
 have quite a few highschool friends down at UT right now, and I have a few
-(small) connections with the officers down there, tehehe! 
+(small) connections with the officers down there, (and it would also be the
+university that I would've been at had I not chosen UTD, tehehe!) 
 
 Honestly, the CTF was quite a blast and I had a lot of fun with the pwns. One of
 my favs was the ECHO challenge. (The PPC was just very annoying and I would say
@@ -247,7 +248,7 @@ syscall execve ROP chain, and that worked. And I got flag. QED.
 This was a fun challenge, kudos to @hk, and first time I heard of BROP! Also
 @hk, you owe me a 3d-printed prize! :P
 
-![That msg tho][8]
+![That msg tho uwu][8]
 
 [1]: http://www.scs.stanford.edu/brop/bittau-brop.pdf
 [2]: https://github.com/xoreaxeaxeax/sandsifter

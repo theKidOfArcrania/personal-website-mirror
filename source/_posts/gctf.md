@@ -7,6 +7,7 @@ categories:
 tags: 
  - re
  - ptrace
+ - debug-ception
 ---
 
 So I just competed in Google CTF. Unfortunately, I was only able to solve one
